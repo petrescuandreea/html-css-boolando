@@ -25,6 +25,7 @@
     margin-bottom: 15px;
 }
 
+/* product img */
 .hidden {
     display:none;
 }
@@ -66,7 +67,7 @@ img {
     font-weight: bold;
     background-color: red;
     padding: 4px;
-}
+} 
 
 .eco_friendly {
     position: absolute;
@@ -75,7 +76,7 @@ img {
     color: white;
     background-color: rgb(10, 141, 80);
     padding: 4px;
-}
+} 
 
 /* info product */
 .info_product {
@@ -92,6 +93,7 @@ img {
 
 .discounted_price {
     color: red;
+    font-weight: bold;
 }
 
 .full_price {

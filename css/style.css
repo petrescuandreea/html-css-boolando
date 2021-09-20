@@ -5,3 +5,86 @@
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* main part */
+.container {
+   width: 80%;
+   margin: 10px auto;
+   /* debug rules
+   background-color: blue;
+   height: 500px; */
+}
+
+/* products block row */
+.product {
+    width: calc(100% / 3);
+    float: left;
+    /* debug rules
+    height: 200px;
+    background-color: cadetblue; */
+}
+
+.product_img {
+    position: relative;
+    height: 500px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 25px;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.discount {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    padding: 4px;
+}
+
+.eco_friendly {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    color: white;
+    background-color: rgb(10, 141, 80);
+    padding: 4px;
+}
+
+/* info product */
+.info_product {
+    margin-top: 10px;
+}
+
+.brand, .description {
+    display: block;
+}
+
+.description {
+    font-weight: bold;
+}
+
+.discounted_price {
+    color: red;
+}
+
+.full_price {
+    text-decoration: line-through;
+}

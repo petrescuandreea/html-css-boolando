@@ -24,14 +24,27 @@
 .product {
     width: calc(100% / 3);
     float: left;
+    padding: 5px;
     /* debug rules
     height: 200px;
     background-color: cadetblue; */
 }
 
-.product {
-    padding: 5px;
+
+.hidden {
+    display:none;
 }
+
+.product:hover .hidden {
+    display: inline;
+    cursor: pointer;
+}
+
+.product:hover .show {
+    display: none;
+}
+
+
 .product_img {
     position: relative;
     height: 500px;

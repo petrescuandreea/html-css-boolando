@@ -29,6 +29,9 @@
     background-color: cadetblue; */
 }
 
+.product {
+    padding: 5px;
+}
 .product_img {
     position: relative;
     height: 500px;

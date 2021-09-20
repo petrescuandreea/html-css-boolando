@@ -15,9 +15,6 @@
 .container {
    width: 80%;
    margin: 10px auto;
-   /* debug rules
-   background-color: blue;
-   height: 500px; */
 }
 
 /* products block row */
@@ -25,11 +22,8 @@
     width: calc(100% / 3);
     float: left;
     padding: 5px;
-    /* debug rules
-    height: 200px;
-    background-color: cadetblue; */
+    margin-bottom: 15px;
 }
-
 
 .hidden {
     display:none;
@@ -43,7 +37,6 @@
 .product:hover .show {
     display: none;
 }
-
 
 .product_img {
     position: relative;
